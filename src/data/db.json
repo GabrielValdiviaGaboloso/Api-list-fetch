@@ -1,0 +1,48 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Ricardo"
+    },
+    {
+      "id": 2,
+      "name": "Enzo"
+    },
+    {
+      "id": 3,
+      "name": "Victor"
+    },
+    {
+      "id": 4,
+      "name": "Cristian"
+    },
+    {
+      "id": 5,
+      "name": "Miguel"
+    },
+    {
+      "id": 6,
+      "name": "William"
+    }
+  ],
+  "roles": [
+    {
+      "id": 1,
+      "name": "administrador"
+    },
+    {
+      "id": 2,
+      "name": "employee"
+    },
+    {
+      "name": "prueba",
+      "id": 3
+    },
+    {
+      "name": "prueba2",
+      "id": 4
+    }
+  ],
+  "posts": [],
+  "comments": []
+}
