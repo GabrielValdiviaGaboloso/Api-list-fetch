@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import "./App.css"
 
 const App = () => {
   const [state, setState] = useState({
@@ -152,7 +153,7 @@ const App = () => {
   }
 
   return (
-    <>
+    <> <div className="container p-5">
       <form onSubmit={onSubmit}>
         <div className="form-floating mb-3">
           <input
@@ -169,7 +170,7 @@ const App = () => {
           </label>
         </div>
         <div className="col-auto">
-          <button type="submit" className="btn btn-primary mb-3">
+          <button type="submit" className="btn btn-outline-danger m-3">
             Agregar Tarea
           </button>
 
@@ -190,13 +191,15 @@ const App = () => {
 
               >
                 {tarea.label}
-                <p onClick={() => eliminarTarea(index)}>x</p>
+                <p onClick={() => eliminarTarea(index)}>X</p>
               </li>
 
 
             );
           })}
       </ul>
+    </div>
+
     </>
   );
 };
